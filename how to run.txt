@@ -1,0 +1,11 @@
+# Step 1: Install dependencies
+pip install -r requirements.txt
+
+# Step 2: Generate dataset
+python generate_dataset.py
+
+# Step 3: Train models & generate plots
+python movie_rating_prediction.py
+
+# Step 4: Predict the rating of your own movie (interactive)
+python predict_movie.py
